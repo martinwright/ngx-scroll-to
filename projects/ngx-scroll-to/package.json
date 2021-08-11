@@ -1,7 +1,7 @@
 {
-  "name": "@nicky-lenaers/ngx-scroll-to",
+  "name": "@martinwright/ngx-scroll-to",
   "description": "A simple Angular 4+ plugin enabling you to smooth scroll to any element on your page and enhance scroll-based features in your app.",
-  "version": "9.0.0",
+  "version": "12.0.0",
   "license": "MIT",
   "private": false,
   "keywords": [
@@ -43,21 +43,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicky-lenaers/ngx-scroll-to.git"
+    "url": "git+https://github.com/martinwright/ngx-scroll-to.git"
   },
-  "homepage": "https://github.com/nicky-lenaers/ngx-scroll-to#readme",
+  "homepage": "https://github.com/martinwright/ngx-scroll-to#readme",
   "bugs": {
-    "url": "https://github.com/nicky-lenaers/ngx-scroll-to/issues"
+    "url": "https://github.com/martinwright/ngx-scroll-to/issues"
   },
   "engines": {
-    "node": ">=8.0.0",
-    "npm": ">=6.0.0"
-  },
-  "dependencies": {
-    "tslib": "^2.0.0"
+    "node": ">=12.0.0",
+    "npm": ">=7.0.0"
   },
   "peerDependencies": {
-    "@angular/common": "^8.0.0 || ^9.0.0",
-    "@angular/core": "^8.0.0 || ^9.0.0"
+    "@angular/common": "^10.0.0 || ^11.0.0 || ^12.0.0",
+    "@angular/core": "^10.0.0 || ^11.0.0 || ^12.0.0"
   }
 }
